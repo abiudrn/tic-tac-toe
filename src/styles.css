@@ -88,3 +88,20 @@ body {
 .game-info {
   margin-left: 20px;
 }
+
+/* Basic button styles */
+.gradient-button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  transition: background-color 0.3s, transform 0.2s;
+  background-image: linear-gradient(to bottom, #4caf50, #45a049);
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
